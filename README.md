@@ -243,7 +243,10 @@ As you can see here, the program counter immediately jumps from the first instru
 
 # Future Extensions
 
-As you may have noticed, this is a minimal reduced instruction set architecture compared to the actual RISC-V ISA which includes many more instructions. I'm currently working on the pipelined version of this cpu (v1), but in terms of future plans I actually want to do the RTL-To-GDSII flow for the single cycle version of this processor (v2) before actually implementing the entire RV32I ISA.
+- **RTL-to-GDSII** Go through the RTL-to-GDSII flow for the single-cycle processor
+- **PIPELINING** Learn pipelining and complete a five stage pipeline
+
+
 
 
 
